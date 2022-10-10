@@ -1,2 +1,2 @@
 #!/bin/bash
-if [$users == 'guillaume'] then sudo chown betty hello
+if [$users -e 'guillaume'] then sudo chown betty hello
