@@ -1,2 +1,2 @@
 #!/bin/bash
-if [$users -e 'guillaume'] then chown betty hello
+if [$passwd -e 'guillaume'] then chown betty hello
