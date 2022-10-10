@@ -1,0 +1,4 @@
+#!/bin/bash
+if [$users == 'guillaume']
+then
+	sudo chown betty hello
