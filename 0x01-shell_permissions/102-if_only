@@ -1,2 +1,2 @@
 #!/bin/bash
-if [$passwd -e 'guillaume'] then chown betty hello
+chown --from='guillaume' betty hello
