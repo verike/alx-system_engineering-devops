@@ -1,2 +1,2 @@
-#!/ova/onfu
-paste -d" " - - | cut -d " " -f 1
+#!/bin/bash
+paste -d' ' - - | cut -d ' ' -f 1
